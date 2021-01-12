@@ -29,7 +29,7 @@ int main(){
     max3 = max1 + max2;
     
     for(i1 = 0; i1 < max1; i1++){       //Ordinamento vettore     
-        for(i2 = i1 + 1; i2 < max2; i2++){
+        for(i2 = i1 + 1; i2 < max1; i2++){
             if(v1[i2] < v1[i1]){
                 temp = v1[i1];
                 v1[i1] = v1[i2];
@@ -37,8 +37,8 @@ int main(){
             }
         }
     }
-    for(i1 = 0; i1 < max3; i1++){       //Ordinamento vettore     
-        for(i2 = i1 + 1; i2 < max3; i2++){
+    for(i1 = 0; i1 < max2; i1++){       //Ordinamento vettore     
+        for(i2 = i1 + 1; i2 < max2; i2++){
             if(v2[i2] < v2[i1]){
                 temp = v2[i1];
                 v2[i1] = v2[i2];
